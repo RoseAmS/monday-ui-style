@@ -14,10 +14,21 @@ $fixed-light-color: $color-snow_white;
 $fixed-dark-color: $color-mud_black;
 
 // Text colors
-$primary-color: $color-basic_blue;
-$primary-hover-color: $color-dark_blue;
-$primary-selected-color: $color-highlight_blue;
-$primary-selected-hover-color: $color-sky_blue;
+// Before Family Care Apps
+// $primary-color: $color-basic_blue;
+// $primary-hover-color: $color-dark_blue;
+// $primary-selected-color: $color-highlight_blue;
+// $primary-selected-hover-color: $color-sky_blue;
+// Family Care Apps guidelines
+$primary-color: $color-red_assist;
+$primary-hover-color: $color-red_assist-hover;
+$primary-selected-color: $color-red_assist-selected;
+$primary-selected-hover-color: $color-red_assist-selected-hover;
+$secondary-color: $color-green_assist;
+$secondary-hover-color: $color-green_assist-hover;
+$secondary-selected-color: $color-green_assist-selected;
+$secondary-selected-hover-color: $color-green_assist-selected-hover;
+
 $primary-text-color: $color-mud_black;
 
 $text-color-on-primary: $color-snow_white;

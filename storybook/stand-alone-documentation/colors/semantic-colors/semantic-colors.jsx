@@ -20,7 +20,12 @@ const colorKeys = [
   "private-color",
   "shareable-color",
   "inverted-color-background",
-  "icon-color"
+  "icon-color",
+  // Family Care Apps guidelines
+  "secondary-color",
+  "secondary-hover-color",
+  "secondary-selected-color",
+  "secondary-selected-hover-color"
 ];
 
 export const SemanticColors = () => <ColorsDescription colorNames={colorKeys} />;

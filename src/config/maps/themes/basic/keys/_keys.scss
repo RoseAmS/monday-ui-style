@@ -46,7 +46,12 @@ $theme-basic-keys: (
   brand-hover-color: $primary-hover-color,
   brand-selected-color: $primary-selected-color,
   brand-selected-hover-color: $primary-selected-hover-color,
-  text-color-on-brand: $text-color-on-primary
+  text-color-on-brand: $text-color-on-primary,
+  // Family Care App guidelines
+  secondary-color: $secondary-color,
+  secondary-hover-color: $secondary-hover-color,
+  secondary-selected-color: $secondary-selected-color,
+  secondary-selected-hover-color: $secondary-selected-hover-color
 );
 
 // ## BASIC THEME SHADOW MAP: basic theme's shadow color map.

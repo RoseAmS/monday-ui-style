@@ -21,5 +21,18 @@ $theme-basic-palette: (
   color-error-hover: $color-error-hover,
   color-error-highlight: $color-error-highlight,
   color-link_color: $color-link_color,
-  color-surface: $color-surface
+  color-surface: $color-surface,
+  //Family Care Apps guidelines
+  color-red_assist: $color-red_assist,
+  color-red_assist-hover: $color-red_assist-hover,
+  color-red_assist-selected: $color-red_assist-selected,
+  color-red_assist-selected-hover: $color-red_assist-selected-hover,
+  color-green_assist: $color-green_assist,
+  color-green_assist-hover: $color-green_assist-hover,
+  color-green_assist-selected: $color-green_assist-selected,
+  color-green_assist-selected-hover: $color-green_assist-selected-hover,
+  secondary-background-light_green: $secondary-background-light_green,
+  traffic-light_green: $traffic-light_green,
+  traffic-light_orange: $traffic-light_orange,
+  traffic-light_red: $traffic-light_red
 );

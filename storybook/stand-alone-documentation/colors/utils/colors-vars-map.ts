@@ -23,6 +23,21 @@ export const colorsMap = [
     color: "--primary-text-on-secondary-color",
     description: "Use for default text color on secondary background color"
   },
+  { color: "--secondary-color", description: "Use this to emphasise secondary ui components" },
+  { color: "--secondary-hover-color", description: "Use only as a hover on secondary color" },
+  {
+    color: "--secondary-hover-on-secondary-color",
+    description: "Use only as a hover on secondary color on secondary background color"
+  },
+  { color: "--secondary-selected-color", description: "Use this to indicate selected state of secondary items" },
+  {
+    color: "--secondary-selected-hover-color",
+    description: "Use this to indicate hover state on a secondary-selected-color items"
+  },
+  {
+    color: "--secondary-selected-on-secondary-color",
+    description: "Use this to indicate selected state of secondary items on secondary background color"
+  },
   { color: "--secondary-text-color", description: "Use when you need text with lesser importance" },
   {
     color: "--secondary-text-on-secondary-color",
