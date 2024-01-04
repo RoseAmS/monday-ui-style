@@ -90,6 +90,12 @@ export const colorsMap = [
     color: "--warning-color-selected-hover",
     description: "Use this to indicate hover state on a warning-selected items"
   },
+  { color: "--traffic-light_green", description: "Use as a positive progress indicator for traffic light options" },
+  { color: "--traffic-light_orange", description: "Use as a warning progress indicator for traffic light options" },
+  {
+    color: "--traffic-light_red",
+    description: "Use as a negative progress indicator for traffic light options"
+  },
   // borders
   { color: "--ui-border-color", description: "Border color for ui elements and components (Button, Input...)" },
   { color: "--ui-border-on-secondary-color", description: "Border color for ui elements on secondary color" },

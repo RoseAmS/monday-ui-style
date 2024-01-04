@@ -96,7 +96,7 @@ $color-timeline_grid_blue: #454662;
 $color-timeline_blue: #1c1f3b;
 
 // Base Layer non UI Vibe values
-$color-snow_white-rgb: extract-rgb($color-snow_white);
+$color-snow_white-rgb: extract-rgb($color-snow_green);
 $color-snow_white-with-opacity: rgba($color-snow_white, 0.4);
 $color-wolf_gray-with-opacity: rgba($color-wolf_gray, 0.1);
 $color-asphalt-with-opacity: rgba($color-asphalt, 0.1);
