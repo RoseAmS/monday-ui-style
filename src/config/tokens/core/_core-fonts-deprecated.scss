@@ -3,17 +3,24 @@
 
 // REGISTRATION TOKENS
 // - Font sizes (numeric units)
-$font-reg-size-14: 14px;
-$font-reg-size-16: 16px;
-$font-reg-size-18: 18px;
-$font-reg-size-24: 24px;
-$font-reg-size-30: 30px;
+$font-reg-size-10: clamp(10px, calc(0.33vw + 5px), 1.3vw); // 14px;
+$font-reg-size-12: clamp(12px, calc(0.46vw + 5px), 1.6vw);
+$font-reg-size-14: clamp(14px, calc(0.59vw + 5px), 1.8vw); // 14px;
+$font-reg-size-15: clamp(15px, calc(0.65vw + 5px), 2vw);
+$font-reg-size-16: clamp(16px, calc(0.72vw + 5px), 2.1vw); // 16px;
+$font-reg-size-17: clamp(17px, calc(0.78vw + 5px), 2.2vw); // 18px;
+$font-reg-size-18: clamp(18px, calc(0.85vw + 5px), 2.3vw); // 18px;
+$font-reg-size-19: clamp(19px, calc(0.91vw + 5px), 2.5vw);
+$font-reg-size-22: clamp(22px, calc(1.11vw + 5px), 2.9vw);
+$font-reg-size-24: clamp(24px, calc(1.24vw + 5px), 3.1vw); // 24px;
+$font-reg-size-30: clamp(32px, calc(1.76vw + 5px), 4.2vw); // 30px;
+$font-reg-size-36: clamp(36px, calc(2.02vw + 5px), 4.7vw);
 
 // - Line heights (numeric units)
-$font-reg-line-height-18: 18px;
-$font-reg-line-height-24: 24px;
-$font-reg-line-height-32: 32px;
-$font-reg-line-height-42: 42px;
+$font-reg-line-height-18: 1.4em; // 18px;
+$font-reg-line-height-24: 1.25em; // 24px;
+$font-reg-line-height-32: 1.25em; // 32px;
+$font-reg-line-height-42: 1.25em; // 42px;
 
 // GLOBAL FONT TOKENS
 $font-size-base: $font-reg-size-16;

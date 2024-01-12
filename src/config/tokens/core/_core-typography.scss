@@ -8,22 +8,58 @@ $font-family-other-languages: "Noto Sans Hebrew", "Noto Kufi Arabic", "Noto Sans
 $text-font-family: $font-family-english-text, $font-family-other-languages;
 $title-font-family: $font-family-english-heading, $font-family-other-languages;
 
+// Font calculations as variables
+$font-large-size: clamp(36px, calc(2.02vw + 5px), 4.7vw);
+$font-h1-size: clamp(32px, calc(1.76vw + 5px), 4.2vw);
+$font-h2-size: clamp(24px, calc(1.24vw + 5px), 3.1vw);
+$font-h3-size: clamp(22px, calc(1.11vw + 5px), 2.9vw);
+$font-body1-size: clamp(19px, calc(0.91vw + 5px), 2.5vw);
+$font-body2-size: clamp(18px, calc(0.85vw + 5px), 2.3vw);
+$font-body3-size: clamp(17px, calc(0.78vw + 5px), 2.2vw);
+$font-text1-size: clamp(16px, calc(0.72vw + 5px), 2.1vw);
+$font-text3-size: clamp(15px, calc(0.65vw + 5px), 2vw);
+$font-text2-size: clamp(14px, calc(0.59vw + 5px), 1.8vw);
+$font-text4-size: clamp(12px, calc(0.46vw + 5px), 1.6vw);
+$font-text5-size: clamp(10px, calc(0.33vw + 5px), 1.3vw);
+
 // Font definition shorthands per semantics atom definitions
-$font-h1-bold: 700 32px / 40px var(--title-font-family);
-$font-h1-normal: 500 32px / 40px var(--title-font-family);
-$font-h1-light: 300 32px / 40px var(--title-font-family);
-$font-h2-bold: 700 24px / 30px var(--title-font-family);
-$font-h2-normal: 500 24px / 30px var(--title-font-family);
-$font-h2-light: 300 24px / 30px var(--title-font-family);
-$font-h3-bold: 600 18px / 24px var(--title-font-family);
-$font-h3-normal: 500 18px / 24px var(--title-font-family);
-$font-h3-light: 300 18px / 24px var(--title-font-family);
-$font-text1-bold: 700 16px / 22px var(--font-family);
-$font-text1-medium: 600 16px / 22px var(--font-family);
-$font-text1-normal: 400 16px / 22px var(--font-family);
-$font-text2-bold: 700 14px / 20px var(--font-family);
-$font-text2-medium: 600 14px / 20px var(--font-family);
-$font-text2-normal: 400 14px / 20px var(--font-family);
+$font-h1-bold: 700 $font-h1-size / 1.25em var(--title-font-family);
+$font-h1-normal: 500 $font-h1-size / 1.25em var(--title-font-family);
+$font-h1-light: 300 $font-h1-size / 1.25em var(--title-font-family);
+$font-h2-bold: 700 $font-h2-size / 1.25em var(--title-font-family);
+$font-h2-normal: 500 $font-h2-size / 1.25em var(--title-font-family);
+$font-h2-light: 300 $font-h2-size / 1.25em var(--title-font-family);
+$font-h3-bold: 600 $font-h3-size / 1.4em var(--title-font-family);
+$font-h3-normal: 500 $font-h3-size / 1.4em var(--title-font-family);
+$font-h3-light: 300 $font-h3-size / 1.4em var(--title-font-family);
+$font-text1-bold: 700 $font-text1-size / 1.4em var(--font-family);
+$font-text1-medium: 600 $font-text1-size / 1.4em var(--font-family);
+$font-text1-normal: 400 $font-text1-size / 1.4em var(--font-family);
+$font-text2-bold: 700 $font-text2-size / 1.4em var(--font-family);
+$font-text2-medium: 600 $font-text2-size / 1.4em var(--font-family);
+$font-text2-normal: 400 $font-text2-size / 1.4em var(--font-family);
+// Family Care Guidelines
+$font-large-bold: 700 $font-large-size / 1.25em var(--title-font-family);
+$font-large-normal: 500 $font-large-size / 1.25em var(--title-font-family);
+$font-large-light: 300 $font-large-size / 1.25em var(--title-font-family);
+$font-body1-bold: 700 $font-body1-size / 1.4em var(--title-font-family);
+$font-body1-normal: 500 $font-body1-size / 1.4em var(--title-font-family);
+$font-body1-light: 300 $font-body1-size / 1.4em var(--title-font-family);
+$font-body2-bold: 700 $font-body2-size / 1.4em var(--title-font-family);
+$font-body2-normal: 500 $font-body2-size / 1.4em var(--title-font-family);
+$font-body2-light: 300 $font-body2-size / 1.4em var(--title-font-family);
+$font-body3-bold: 700 $font-body3-size / 1.4em var(--title-font-family);
+$font-body3-normal: 500 $font-body3-size / 1.4em var(--title-font-family);
+$font-body3-light: 300 $font-body3-size / 1.4em var(--title-font-family);
+$font-text3-bold: 700 $font-text3-size / 1.4em var(--title-font-family);
+$font-text3-medium: 600 $font-text3-size / 1.4em var(--title-font-family);
+$font-text3-normal: 500 $font-text3-size / 1.4em var(--title-font-family);
+$font-text4-bold: 700 $font-text4-size / 1.4em var(--title-font-family);
+$font-text4-medium: 600 $font-text4-size / 1.4em var(--title-font-family);
+$font-text4-normal: 500 $font-text4-size / 1.4em var(--title-font-family);
+$font-text5-bold: 700 $font-text5-size / 1.4em var(--title-font-family);
+$font-text5-medium: 600 $font-text5-size / 1.4em var(--title-font-family);
+$font-text5-normal: 500 $font-text5-size / 1.4em var(--title-font-family);
 
 // Letter spacing definition per semantics atom definitions
 $letter-spacing-h1-bold: -0.5px;
